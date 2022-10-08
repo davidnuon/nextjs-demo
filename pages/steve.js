@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import NamePlate from "../components/NamePlate.js"
 
 export default function Home() {
   return (
@@ -13,11 +12,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-
-        <NamePlate name="Kyle"></NamePlate>
-
         <h1 className={styles.title}>
-          Welcome to Kevin
+          Welcome to Steve
         </h1>
 
         <p className={styles.description}>
