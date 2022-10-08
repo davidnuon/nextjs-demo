@@ -13,8 +13,12 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-
-        <NamePlate name="Kyle"></NamePlate>
+        {
+            (
+                ['Brody', 'Jalyse', 'Jamie', 'Kyle']
+                    .map( name => <NamePlate key={name} name={name}></NamePlate>)
+            )
+        }
 
         <h1 className={styles.title}>
           Welcome to Kevin
